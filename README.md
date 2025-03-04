@@ -1,6 +1,6 @@
 # React DayPicker
 
-DayPicker is a [React](https://react.dev) component for creating date pickers, calendars, and date inputs for web applications.
+Forked to work with relume for utility. DayPicker is a [React](https://react.dev) component for creating date pickers, calendars, and date inputs for web applications.
 
 📖 See **[daypicker.dev](https://daypicker.dev)** for guides, examples and API reference.
 
