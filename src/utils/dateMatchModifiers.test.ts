@@ -1,4 +1,5 @@
-import { addDays, subDays } from "date-fns";
+import addDays from "date-fns/addDays";
+import subDays from "date-fns/subDays";
 
 import { defaultDateLib } from "../classes/DateLib";
 import {

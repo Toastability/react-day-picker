@@ -1,15 +1,13 @@
 import type { Locale } from "date-fns";
 // Adjust the import path
-import {
-  addDays,
-  addWeeks,
-  addMonths,
-  addYears,
-  startOfISOWeek,
-  endOfISOWeek,
-  startOfWeek,
-  endOfWeek
-} from "date-fns";
+import addDays from "date-fns/addDays";
+import addMonths from "date-fns/addMonths";
+import addWeeks from "date-fns/addWeeks";
+import addYears from "date-fns/addYears";
+import endOfISOWeek from "date-fns/endOfISOWeek";
+import endOfWeek from "date-fns/endOfWeek";
+import startOfISOWeek from "date-fns/startOfISOWeek";
+import startOfWeek from "date-fns/startOfWeek";
 
 import { DateLib } from "../classes/DateLib";
 import type { DayPickerProps, MoveFocusBy, MoveFocusDir } from "../types";

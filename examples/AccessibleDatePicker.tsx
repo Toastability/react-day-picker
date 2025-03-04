@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { format } from "date-fns";
+import format from "date-fns/format";
 import { DayPicker } from "react-day-picker";
 
 export function AccessibleDatePicker() {
